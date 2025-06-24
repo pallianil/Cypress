@@ -1,0 +1,21 @@
+Implicit assertions
+	
+	should
+	and
+
+eq
+contain
+include
+exist
+have.lenght
+have.value
+
+        
+     //css with tag & id
+    //cy.get("input#search_query_top").type("T-Shirts")  // id,   tagname is optional
+    
+    //css with tag & class
+    //cy.get("input.search_query").type("T-Shirts")  // class,  tagname is optional
+
+    //css with tag & attribute
+    //cy.get("input[name='search_query']").type("T-Shirts")  // attribute,  tagname is optional
